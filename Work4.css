@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	font-family: 'PT Sans';
+	font-size: 14px;
+}
+img{
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.wrap{
+	width: 1170px;
+	margin: auto;
+}
+header{
+	background-color: black;
+	color: #FFF;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0;
+}
+.logo-premium-car{
+	width: 100px;
+	height: 23px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Lato;
+}
+.logo-premium{
+
+}
+.logo-car{
+	width: 40px;
+	background-color: #4A90E2;
+	text-align: center;
+}
+nav ul{
+	width: 370px;
+	display: flex;
+	justify-content: space-between;
+}
+.vehicle{
+	background-color: #4A90E2;
+	width: 62px;
+	height: 22px;
+	line-height: 22px;
+	color: #FFF;
+	text-align: center;
+}
+.hero-images{
+	margin: 30px 0 75px; 
+	color: #FFF;
+}
+.hero-images-items{
+	height: 560px;
+	display: flex;
+	justify-content: space-between;
+}
+.hero-image-l{
+	width: 370px;
+	background-image: url(car-1.jpg);
+	background-size: cover;
+}
+.hero-images-r{
+	height: 560px;
+	width: 770px;
+	display: flex;
+	justify-content: space-between;
+}
+.hero-image-c-item-1{
+	height: 265px;
+	width: 370px;
+	background-image: url(car-4.jpg);
+	background-size: cover;
+	margin-bottom: 30px;
+}
+.hero-image-c-item-2{
+	width: 370px;
+	height: 265px;
+	background-image: url(car-2.jpg);
+	background-size: cover;
+}
+.hero-image-r-item-1{
+	width: 370px;
+	height: 265px;
+	background-image: url(car-3.jpg);
+	background-size: cover;
+	margin-bottom: 30px;
+}
+.hero-image-r-item-2{
+	width: 370px;
+	height: 265px;
+	background-image: url(car-5.jpg);
+	background-size: cover;
+}
+aside{
+	width: 270px;
+}
+.side-bar .title{
+	font-size: 18px;
+	padding: 60px 0 20px;
+}
+.side-bar p {
+	color: #666;
+}
+.side-bar .subtitle{
+	font-size: 20px;
+	padding-top: 10px;
+}
+.button-aside{
+	height: 50px;
+	line-height: 50px;
+	background-color: #232323;
+	color: #FFF;
+	text-align: center; 
+	font-weight: 700;
+}
+.popular-post-2{
+	margin: 40px 0;
+}
+.popular-post-1, .popular-post-2, .popular-post-3{
+	position: relative;
+}
+.popular-posts .vehicle{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.instagram-items{
+	display: flex;
+	justify-content: space-between;
+}
+.instagram-items img{
+	width: 130px;
+}
+.instagram .button-aside{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.logo-instagram{
+	width: 12px;
+	margin-left: 75px;
+}
+span{
+	background-color: #EBEBEB;
+	padding: 17px 6px;
+	margin: 10px;
+}
+.email-buttons{
+	border: 1px solid #E5E5E5;
+	color: #AEB3BB;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 15px;
+	margin: 10px 0;
+}
+.email p {
+	padding-bottom: 20px;
+}
